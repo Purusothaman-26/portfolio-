@@ -1,0 +1,58 @@
+/* Centering the entire page */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  background-color: #1f242d;;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Education Section Styling */
+.education-section {
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.education-section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.education-item {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.education-item h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.institute,
+.year {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Bullet point styling */
+.description {
+  padding-left: 20px;
+  color: #444;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.description li {
+  margin-bottom: 6px;
+}
